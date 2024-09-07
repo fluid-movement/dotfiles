@@ -37,6 +37,7 @@ alias vi="nvim"
 alias proj="cd ~/PhpstormProjects/; la"
 alias ar="php artisan"
 alias n="pnpm"
+alias yadm-pull='yadm fetch origin && yadm reset --hard origin/main'
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
