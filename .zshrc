@@ -41,8 +41,11 @@ alias yadm-pull='yadm fetch origin && yadm reset --hard origin/main'
 alias start-dd="sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0"
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
-
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+
+export EDITOR=vim
+export VISUAL=vim
 
 # pnpm
 export PNPM_HOME="/Users/azaharias/Library/pnpm"
