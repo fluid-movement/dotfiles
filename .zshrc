@@ -38,6 +38,7 @@ alias proj="cd ~/PhpstormProjects/; la"
 alias ar="php artisan"
 alias n="pnpm"
 alias yadm-pull='yadm fetch origin && yadm reset --hard origin/main'
+alias start-dd="sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0"
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
