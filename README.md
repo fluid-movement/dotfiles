@@ -9,3 +9,5 @@ https://yazi-rs.github.io/docs/installation
 
 ## zoxide
 https://github.com/ajeetdsouza/zoxide
+
+## neovim
