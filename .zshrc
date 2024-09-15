@@ -51,3 +51,4 @@ function yy() {
 	rm -f -- "$tmp"
 }
 
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh" # fix kitty backspace in ssh bug
